@@ -1,0 +1,1 @@
+Trying to test the limits of TypeScript's type system with some functional programming.
