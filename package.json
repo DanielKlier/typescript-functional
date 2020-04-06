@@ -23,7 +23,7 @@
   "license": "ISC",
   "jest": {
     "transform": {
-      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+      ".(ts|tsx)": "ts-jest"
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "moduleFileExtensions": [
@@ -50,22 +50,21 @@
     "singleQuote": true
   },
   "devDependencies": {
-    "@types/jest": "^23.1.0",
-    "jest": "^23.1.0",
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
+    "@rollup/plugin-typescript": "^4.0.0",
+    "@types/jest": "^25.2.1",
+    "jest": "^25.2.7",
     "lodash.camelcase": "latest",
-    "prettier": "^1.13.5",
-    "rollup": "^0.60.7",
-    "rollup-plugin-commonjs": "latest",
-    "rollup-plugin-json": "latest",
-    "rollup-plugin-node-resolve": "latest",
-    "rollup-plugin-sourcemaps": "latest",
-    "rollup-plugin-typescript2": "latest",
-    "ts-jest": "^22.4.6",
-    "tslint": "^5.10.0",
-    "tslint-config-prettier": "^1.13.0",
-    "tslint-config-standard": "^7.0.0",
-    "tslint-language-service": "^0.9.9",
+    "prettier": "^2.0.3",
+    "rollup": "^2.3.3",
+    "rollup-plugin-sourcemaps": "^0.5.0",
+    "ts-jest": "^25.3.1",
+    "tslint": "^6.1.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^9.0.0",
     "typedoc": "^0.17.4",
-    "typescript": "^2.9.2"
+    "typescript": "^3.8.3"
   }
 }
